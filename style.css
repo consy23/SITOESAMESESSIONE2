@@ -1,0 +1,170 @@
+/* Stile generale per il corpo della pagina */
+body {
+  background-image: linear-gradient(to top right,  #5a9ed9 0%,  #000080 70%, #AACFEF 100%);
+  background-color: #000080; /* Colore di sfondo blu scuro */
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Carattere divertente */
+  text-align: center;
+}
+
+/* Stile per l'intestazione del sito */
+header {
+  header {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+}
+  background-color:#000080; /* Colore di sfondo azzurrino medio */
+  padding: 30px;
+  text-align: center;
+}
+#logo {
+  float: left; /* Allinea il logo a sinistra */
+  margin-right: 10px; /* Aggiunge uno spazio di 10 pixel a destra del logo */
+}
+
+h1 {
+  color: white; /* Testo bianco */
+  font-size: 40px; /* Dimensione del testo grande */
+  text-shadow: 2px 2px 4px #000000; /* Effetto di ombra */
+  float: left;
+  position: fixed
+}
+
+/* Stile per il menu di navigazione */
+nav {
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none; /* Rimuovi le palline delle liste */
+  margin: 0;
+  padding: 0;
+  color: white; /* Testo bianco */
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white; /* Testo bianco */
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white; /* Testo bianco */
+}
+
+nav ul li a {
+  color: white; /* Testo bianco */
+  text-decoration: none; /* Rimuovi i sottolineati */
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Stile per il contenuto principale */
+main {
+  background-color: #000080; /* Colore di sfondo blu scuro */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Stile per i titoli delle sezioni */
+h2 {
+  color: #e3e1ef; /* Testo bianco scuro */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+/* Stile per i titoli delle sezioni */
+h3 {
+  color: #e3e1ef; /* Testo bianco scuro */
+  margin-top: 0;
+}
+/* Stile per i paragrafi */
+p {
+  color: #eeeef6; /* Testo bianco scuro */
+  line-height: 1.5; /* Spaziatura del testo */
+}
+
+/* Stile per i link */
+a {
+  color: #FF1493; /* Testo rosa scuro */
+  text-decoration: none; /* Rimuovi i sottolineati */
+}
+
+a:hover {
+  color: #C71585; /* Testo rosa chiaro al passaggio del mouse */
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  /* Styles for screens below 768px */
+  /* For example, you can change the font size and layout */
+  body {
+    font-size: 14px;
+  ;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1 0 200px; /* adjusts the size of each box */
+  /* Other styles for the box */
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex: 1 0 100%; /* full width on smaller screens */
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+}
+/* Stile per la linea orizzontale */
+.fun-separator {
+  border: none;
+  height: 30px;
+  background-color: #cfd5d8; /* Colore della linea, puoi personalizzare il colore */
+  margin: 20px 0; /* Distanza sopra e sotto la linea */
+}
+
+/* Stile aggiuntivo per rendere il separatore più simpatico */
+.fun-separator::before {
+  content: ''; /* Codice Unicode per un emoji (puoi sceglierne uno diverso) */
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 10px; /* Spazio tra l'emoji e la linea */
+  color: #e0e9f0; /* Colore dell'emoji, abbinato al colore della linea */
+}
+
+.separator {
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  background-color: #000080; /* Colore pastello per la cornice */
+  padding: 5px; /* Spaziatura interna */
+  border-radius: 10px; /* Bordi arrotondati */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ombra per effetto visivo */
+  position: relative;
+}
+form {
+  background-color: #ffffffb0; /* Colore di sfondo del modulo */
+  padding: 20px; /* Spaziatura interna */
+  border-radius: 10px; /* Bordi arrotondati */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra per effetto visivo */
+}

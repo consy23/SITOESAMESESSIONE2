@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "TGIF - Fuga dall'ufficio (gioco in scatola)",
+        "category": "Boardgame",
+        "date": "Luglio 2023",
+        "description": "È venerdì e hai già la testa al weekend? A liberarti dalle task sei meglio di Houdini? Allora la vittoria sarà tua.
+        Thank God It’s Friday è un party game di carte ambientato durante un tipico venerdì in azienda.
+        Rivivi le classiche situazioni da ufficio: le dinamiche fra capo, le persone sottoposte, le pause caffè e le task di cui disfarti.
+        Riuscirai a evitare il burn-out… e il licenziamento?",
+        "image": "progetto1.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "PROGETTO LIVE - Sei PROPRIO ORA dentro ad un mio progetto!",
+        "category": "Web Developer",
+        "date": "In corso",
+        "description": "Non voglio farti spoiler! Scoprilo QUI",
+        "image": "accademia-code.jpeg"
+    }
+]
+
